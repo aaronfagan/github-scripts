@@ -1,6 +1,6 @@
 #!/bin/bash
-BRANCH_OLD="main"
-BRANCH_NEW="master"
+BRANCH_OLD="master"
+BRANCH_NEW="main"
 # REPOS=$(curl -s -X GET -H "Authorization: token ${GITHUB_TOKEN}" -H "Accept: application/vnd.github.v3+json" https://api.github.com/user/repos?per_page=100 | jq -r .[].full_name)
 REPOS="aaronfagan/github-scripts"
 
