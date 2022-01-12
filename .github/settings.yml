@@ -2,7 +2,7 @@ repository:
   name: 'github-scripts'
   description: 'A collection of scripts for use with the Github API'
   homepage: ''
-  default_branch: 'master'
+  default_branch: 'main'
   private: false
   has_issues: true
   has_wiki: false

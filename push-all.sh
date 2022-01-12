@@ -1,6 +1,6 @@
 #!/bin/bash
 
-REPOS=$(ls)
+REPOS=$(ls -d */)
 COMMIT_MSG="feat: update setting.yml"
 
 for REPO in ${REPOS}; do
